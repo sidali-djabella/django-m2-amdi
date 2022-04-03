@@ -1,9 +1,9 @@
 # E-commerceWebsite
-This project deals with developing a Virtual website ‘E-commerce Website’. It provides the user with a list of the various products available for purchase in the store. For the convenience of online shopping, a shopping cart is provided to the user. After the selection of the goods, it is sent for the order confirmation process. The system is implemented using Python's web framework Django.
+Ce projet porte sur le développement d'un site Web virtuel «Site Web de commerce électronique». Il fournit à l'utilisateur une liste des différents produits disponibles à l'achat dans le magasin. Pour la commodité des achats en ligne, un panier d'achat est fourni à l'utilisateur. Après la sélection de la marchandise, celle-ci est envoyée pour le processus de confirmation de commande. Le système est implémenté à l'aide du framework Web Python Django.
 
-1. Clone this repository into a folder on your computer
-2. Download Python
-3. Open terminal inside the folder with code.
-4. Type pip install -r requirements.txt in the terminal window to install all the requirements to run the app.
-5. Type python manage.py runserver to start a localhost server for the app.
-6. The API is started and now you can use the API routes to give requests.
+1. Cloner ce repository dans un dossier sur votre ordinateur ssh :git@github.com:sidali-djabella/django-m2-amdi.git
+2. Téléchargez Python
+3. Ouvrez le terminal dans le dossier avec le "code."
+4. Tapez "pip install -r requirements.txt" dans la fenêtre du terminal pour installer toutes les conditions requises pour exécuter l'application.
+5. Tapez "python manage.py runserver" pour démarrer un serveur localhost pour l'application.
+6. L'API est démarrée et vous pouvez maintenant utiliser les routes de l'API pour envoyer des requêtes.
