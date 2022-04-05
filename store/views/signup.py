@@ -57,7 +57,7 @@ class Signup (View):
             error_message = 'Enter your Phone Number'
         elif len (customer.phone) < 10:
             error_message = 'Phone Number must be 10 char Long'
-        elif len (customer.password) < 5:
+        elif len (customer.password) < 6:# on a mis la a 6 caractaires 
             error_message = 'Password must be 5 char long'
         elif len (customer.email) < 5:
             error_message = 'Email must be 5 char long'

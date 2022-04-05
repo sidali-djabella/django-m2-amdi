@@ -4,7 +4,7 @@ from store.models.category import Category
 from django.views import View
 
 
-# Create your views here.
+#  your views here.
 class Index(View):
 
     def post(self , request):
@@ -29,13 +29,13 @@ class Index(View):
             cart[product] = 1
 
         request.session['cart'] = cart
-        print('cart' , request.session['cart'])
+        print('Cart' , request.session['cart'])
         return redirect('homepage')
 
 
 
     def get(self , request):
-        # print()
+        
         return HttpResponseRedirect(f'/store{request.get_full_path()[1:]}')
 
 def store(request):
