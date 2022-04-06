@@ -4,7 +4,7 @@ from store.models.category import Category
 from django.views import View
 
 
-#  your views here.
+#  les vues ici
 class Index(View):
 
     def post(self , request):
